@@ -1,0 +1,42 @@
+{
+  "name": "azure-scripty-cli2",
+  "version": "1.0.1",
+  "description": "Azure automation made easy",
+  "main": "lib/azure-scripty-cli2.js",
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "underscore": "~1.4.3",
+    "async": "~0.2.10"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "jshint": "*",
+    "should": "*",
+    "coffee-script": "*",
+    "underscore.string": "~2.3.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SpektraSystems/azure-scripty-cli2.git"
+  },
+  "homepage": "https://github.com/SpektraSystems/azure-scripty-cli2.git",
+  "keywords": [
+    "azure",
+    "cloud",
+    "bash"
+  ],
+  "author": "Glenn Block",
+  "license": "Apache 2",
+  "readmeFilename": "README.md"
+}
